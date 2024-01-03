@@ -1,0 +1,46 @@
+.simple-timepicker {
+    cursor: text;
+    min-height: 38px;
+    position: relative;
+    width: 100%;
+}
+
+.simple-timepicker-value {
+    border: 1.5px solid #d3d3d3;
+    border-radius: 8px;
+    padding: 8px;
+    transition: all 0.3s cubic-bezier(0.19, 1, 0.22, 1);
+}
+
+.simple-timepicker-value-placeholder {
+    color: #d3d3d3;
+}
+
+.simple-timepicker-input {
+    align-items: center;
+    background-color: #fff;
+    border: 1px solid #d3d3d3;
+    border-radius: 8px;
+    display: flex;
+    gap: 2px;
+    left: 0px;
+    position: absolute;
+    top: 40px;
+    width: calc(100% - 2px); /** 2px is a border width */
+}
+
+.simple-timepicker-input input {
+    border: none;
+    border-radius: 8px;
+    color: dimgray;
+    flex-grow: 1;
+    outline: none;
+    padding: 6px;
+    text-align: center;
+    width: 100%;
+}
+
+.simple-timepicker-input input:active,
+.simple-timepicker-input input:hover {
+    background-color: #ececec;
+}
